@@ -214,3 +214,9 @@ textarea {
     border-color: #05386B;
     color: #05386B;
 }
+
+.footer button {
+    float:left;
+    text-align: center;
+    text-decoration: none;
+}
