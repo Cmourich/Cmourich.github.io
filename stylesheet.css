@@ -278,7 +278,7 @@ textarea {
     clear: both;
 }
 
-.column h2 {
+.column h2, h3 {
     text-align: left;
 }
 
