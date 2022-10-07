@@ -231,8 +231,7 @@ textarea {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -240,11 +239,13 @@ textarea {
 }
 
 #project-table td, th{
+    border-top: 5pt solid;
     border-bottom: 5pt solid ;
     border-collapse: collapse;
     border-left: 5px solid #EDF5D1;
     border-right: 5px solid #EDF5D1;
     padding: 100px 100px 100px 100px;
+    background-color: #379683 ;
 }
 
 #project-table th {
