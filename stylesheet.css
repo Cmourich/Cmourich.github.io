@@ -220,3 +220,48 @@ textarea {
     text-align: center;
     text-decoration: none;
 }
+
+#project-table table {
+    width: 80%;
+    background-color: #05386B;
+    border-spacing: 100px;
+    border: 10px solid;
+    border-color: #EDF5D1;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#project-table td, th{
+    border-bottom: 5pt solid ;
+    border-collapse: collapse;
+    border-left: 5px solid #EDF5D1;
+    border-right: 5px solid #EDF5D1;
+    padding: 100px 100px 100px 100px;
+}
+
+#project-table th {
+    font-weight: 900;
+    font-size: 80px;
+}
+
+#project-table td {
+    font-size: 20px;
+}
+
+#funk h1{
+    text-align: center;
+}
+
+#funk img {
+    margin-top: 5%;
+    border: 10px solid;
+    width: 30%
+}
