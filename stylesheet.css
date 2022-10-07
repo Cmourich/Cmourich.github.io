@@ -265,3 +265,29 @@ textarea {
     border: 10px solid;
     width: 30%
 }
+
+.column {
+    float: left;
+    width: 30%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    text-align: left;
+}
+
+.column {
+    padding: 30px 30px 30px 30px;
+    border: 5px solid #EDF5D1;
+    background-color: #05386B;
+    margin-left: 10%;
+}
+
+#col2 {
+    margin-right: 10%;
+}
