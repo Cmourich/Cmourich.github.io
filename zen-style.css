@@ -1,0 +1,67 @@
+html {
+	font-size: large;
+	background: #EDF5D1 url("./images/zen-image.jpeg") no-repeat top;
+	padding-top: 600px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: xxx-large;
+	color: #05386B;
+	background-color: #1dc188;
+}
+
+h2 h3 {
+	font-weight: 700;
+	font-size: xx-large;
+	color: #05386B;
+}
+
+a {
+	font-style: italic;
+	color: #1dc188;
+}
+
+a:hover {
+	color: #05386B;
+}
+
+p {
+	color: #05386B;
+}
+
+.sidebar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 160px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #1dc188; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sidebar a {
+	color: #05386B;
+}
+
+.requirements {
+	background: url("./images/buddha.jpg") no-repeat right;
+}
+
+.requirements p {
+	padding-right: 550px;
+}
+
+.explanation {
+	background: url("./images/Enlightened.jpeg") no-repeat left;
+}
+
+.explanation p, .explanation h3 {
+	margin-left: 550px;
+}
