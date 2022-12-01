@@ -3,12 +3,11 @@
     <head>
         <title>The Backrooms</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../cs">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../cs/final.css">
+        <link rel="stylesheet" href="./cs/final.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
@@ -17,7 +16,7 @@
         <div class="container-fluid">
 
             <div class="row header">
-                <img src="../images/528195.png" alt="background" class="head-background">
+                <img src="./images/528195.png" alt="background" class="head-background">
                 <h1 class="text-center">Welcome to the Backrooms</h1>
             </div>
             <div class="row">
@@ -25,12 +24,13 @@
                     <span class="elements"></span>
                 </div>
                 <div class="col-sm-4 fader">
-                    <img id="josh" src="../images/Josh.jpeg" width="300" height="300" alt="Josh" onclick="clicker()">
-                    <img id="red-d" src="../images/red.jpeg" width="300" height="300" alt="red" onclick="clicker()">
+                    <img id="josh" src="./images/Josh.jpeg" width="300" height="300" alt="Josh" onclick="clicker()">
+                    <img id="red-d" src="./images/red.jpeg" width="300" height="300" alt="red" onclick="clicker()">
                 </div>
                 <div class="col-sm-4 display">
                     <h3 class="text-center">Pings sent: <span id="counter">0</span></h3>
-                    <h6 class="text-center">Disclaimer: Josh okay'd this and has been actively <br> fighting my efforts so that this does not DOS himself</h6>
+                    <h6 class="text-center">Disclaimer: Josh okay'd this and has been actively <br> fighting my efforts so that this does not DOS himself</h6><br>
+                    <a class="api-link" href="https://api.joshdietz.com/was_chris_successful">Click here to see how successful we are!</a>
                     <p class="bored-text" >Bored with the clicking? Find some new ways to waste your time!</p>
                     <button id="bored-button" onclick="bored()">Click me!</button>
                     <div id="bored"></div>
@@ -49,8 +49,8 @@
             </div>
         </div>
 
-        <img src="../images/528195.png" alt="background" class="foot-background">
-        <script src="../js/final.js"></script>
+        <img src="./images/528195.png" alt="background" class="foot-background">
+        <script src="./js/final.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
             var typed = new Typed(".elements",{
