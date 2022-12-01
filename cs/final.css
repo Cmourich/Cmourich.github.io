@@ -1,0 +1,158 @@
+html, body {
+    height: 100%;
+    background-color: #353a56;
+}
+
+.final-body {
+    /* add a lil cool modern background image */
+    background-image: url("../images/528195.png");
+    width: 100%;
+    height: 100%;
+}
+
+.entries {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.button {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    background-color: nones;
+}
+
+.container{
+    width: 30%;
+    background-color: #CACACA;
+    border: solid 5px #262626;
+    border-radius: 5%;
+    color: #262626;
+    padding: 10px 10px 60px 10px;
+    margin-top: 20%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.head-background {
+    width: 100%;
+    height: 150px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.foot-background {
+    width: 100%;
+    height: 250px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.container-fluid {
+    background-color: #353a56;
+    color: #e9ce87;
+    font-weight: 900 bold;
+}
+
+ul {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    background-color: #262626;
+    border-collapse: collapse;
+}
+
+li button {
+    background-color: #ca3745;
+    margin-left: 100px;
+}
+
+.upgrades {
+    margin-top: 5%;
+
+}
+.display {
+    margin-top: 10%;
+}
+
+.col-sm-4:hover > img {
+    cursor: pointer;
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+.col-sm-4 img {
+    margin-left: 20%;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.elements {
+    font-size: medium;
+    height: 500px;
+    white-space: pre;
+}
+
+.fader {
+    position: relative;
+}
+.fader img {
+    position: absolute;
+}
+#josh {
+    z-index: 2;
+}
+#red-d {
+    z-index: 1;
+}
+
+#bored {
+    margin-top: 50px;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    background-color: #262626;
+    margin-top: 5%;
+}
+
+#bored-button {
+    margin-left: 43%;
+    background-color: #ca3745;
+}
+
+.bored-text {
+    padding-top: 30px;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.intro {
+    padding: 30px 30px 30px 30px;
+    background-color: #262626;
+}

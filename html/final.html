@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../cs">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../cs/final.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body class="final-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 flex-fixed-width-item">
+                    <h1 class="text-center">Welcome</h1>
+                    <h4 class="text-center">Login to your account</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="log-form">
+                    <form action="./main.html">
+                        <div class="col-sm-6 entries">
+                            <input id="username" type="text" title="username" placeholder="username" required
+                            oninvalid="this.setCustomValidity('There may be a hint in the source code')"
+                            oninput="this.setCustomValidity('Is This Correct?')"/><br>
+                            <input id="password" type="password" title="password" placeholder="password" required
+                            oninvalid="this.setCustomValidity('There may be a hint in the source code')"
+                            oninput="this.setCustomValidity('Is This Correct?')"/><br>
+                        </div>
+                        <div class="col-sm-6 button">
+                            <a href="./main.html"><button type="submit" class="btn" onclick="login()">Login</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="../js/final.js"></script>
+    </body>
+
+
+</html>

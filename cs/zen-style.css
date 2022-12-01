@@ -1,6 +1,6 @@
 html {
 	font-size: large;
-	background: #EDF5D1 url("./images/zen-image.jpeg") no-repeat top;
+	background: #EDF5D1 url("../images/zen-image.jpeg") no-repeat top;
 	padding-top: 600px;
 	padding-left: 300px;
 	padding-right: 200px;
@@ -51,7 +51,7 @@ p {
 }
 
 .requirements {
-	background: url("./images/buddha.jpg") no-repeat right;
+	background: url("../images/buddha.jpg") no-repeat right;
 }
 
 .requirements p {
@@ -59,7 +59,7 @@ p {
 }
 
 .explanation {
-	background: url("./images/Enlightened.jpeg") no-repeat left;
+	background: url("../images/Enlightened.jpeg") no-repeat left;
 }
 
 .explanation p, .explanation h3 {
