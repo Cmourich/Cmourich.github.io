@@ -65,7 +65,7 @@ function upgrade3() {
 function bored() {
     // make a get request to http://www.boredapi.com/api/activity/ and receive a Json object in return and display to a div
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "http://www.boredapi.com/api/activity/", true);
+    xhttp.open("GET", "https://www.boredapi.com/api/activity/", true);
     xhttp.responseType = "json";
     xhttp.send();
     xhttp.onreadystatechange = function() {
